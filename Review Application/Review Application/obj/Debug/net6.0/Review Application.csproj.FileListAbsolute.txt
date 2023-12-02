@@ -1,0 +1,32 @@
+C:\Users\Admin\source\repos\Review Application\Review Application\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Admin\source\repos\Review Application\Review Application\bin\Debug\net6.0\appsettings.json
+C:\Users\Admin\source\repos\Review Application\Review Application\bin\Debug\net6.0\Review Application.exe
+C:\Users\Admin\source\repos\Review Application\Review Application\bin\Debug\net6.0\Review Application.deps.json
+C:\Users\Admin\source\repos\Review Application\Review Application\bin\Debug\net6.0\Review Application.runtimeconfig.json
+C:\Users\Admin\source\repos\Review Application\Review Application\bin\Debug\net6.0\Review Application.dll
+C:\Users\Admin\source\repos\Review Application\Review Application\bin\Debug\net6.0\Review Application.pdb
+C:\Users\Admin\source\repos\Review Application\Review Application\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Admin\source\repos\Review Application\Review Application\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Admin\source\repos\Review Application\Review Application\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Admin\source\repos\Review Application\Review Application\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Admin\source\repos\Review Application\Review Application\obj\Debug\net6.0\Review Application.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\Review Application\Review Application\obj\Debug\net6.0\Review Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\Review Application\Review Application\obj\Debug\net6.0\Review Application.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\Review Application\Review Application\obj\Debug\net6.0\Review Application.AssemblyInfo.cs
+C:\Users\Admin\source\repos\Review Application\Review Application\obj\Debug\net6.0\Review Application.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Review Application\Review Application\obj\Debug\net6.0\Review Application.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Admin\source\repos\Review Application\Review Application\obj\Debug\net6.0\Review Application.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Admin\source\repos\Review Application\Review Application\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Admin\source\repos\Review Application\Review Application\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Admin\source\repos\Review Application\Review Application\obj\Debug\net6.0\staticwebassets\msbuild.Review Application.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Admin\source\repos\Review Application\Review Application\obj\Debug\net6.0\staticwebassets\msbuild.build.Review Application.props
+C:\Users\Admin\source\repos\Review Application\Review Application\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Review Application.props
+C:\Users\Admin\source\repos\Review Application\Review Application\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Review Application.props
+C:\Users\Admin\source\repos\Review Application\Review Application\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Admin\source\repos\Review Application\Review Application\obj\Debug\net6.0\scopedcss\bundle\Review Application.styles.css
+C:\Users\Admin\source\repos\Review Application\Review Application\obj\Debug\net6.0\Review Application.csproj.CopyComplete
+C:\Users\Admin\source\repos\Review Application\Review Application\obj\Debug\net6.0\Review Application.dll
+C:\Users\Admin\source\repos\Review Application\Review Application\obj\Debug\net6.0\refint\Review Application.dll
+C:\Users\Admin\source\repos\Review Application\Review Application\obj\Debug\net6.0\Review Application.pdb
+C:\Users\Admin\source\repos\Review Application\Review Application\obj\Debug\net6.0\Review Application.genruntimeconfig.cache
+C:\Users\Admin\source\repos\Review Application\Review Application\obj\Debug\net6.0\ref\Review Application.dll
