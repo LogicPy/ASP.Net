@@ -1,0 +1,12 @@
+﻿namespace Local_SearchEngine.Views.Search
+{
+@* Index.cshtml *@
+@using (Html.BeginForm("Search", "Search", FormMethod.Post))
+{
+    <p>
+        Search: @Html.TextBox("searchString")
+        <input type="submit" value="Search" />
+    </p>
+}
+
+}
