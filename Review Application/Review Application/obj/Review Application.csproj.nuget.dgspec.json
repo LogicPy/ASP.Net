@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\ASP.Net-main\\Review Application\\Review Application\\Review Application.csproj": {}
+    "E:\\ASP.Net-main (1)\\ASP.Net-main\\Review Application\\Review Application\\Review Application.csproj": {}
   },
   "projects": {
-    "E:\\ASP.Net-main\\Review Application\\Review Application\\Review Application.csproj": {
+    "E:\\ASP.Net-main (1)\\ASP.Net-main\\Review Application\\Review Application\\Review Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\ASP.Net-main\\Review Application\\Review Application\\Review Application.csproj",
+        "projectUniqueName": "E:\\ASP.Net-main (1)\\ASP.Net-main\\Review Application\\Review Application\\Review Application.csproj",
         "projectName": "Review Application",
-        "projectPath": "E:\\ASP.Net-main\\Review Application\\Review Application\\Review Application.csproj",
+        "projectPath": "E:\\ASP.Net-main (1)\\ASP.Net-main\\Review Application\\Review Application\\Review Application.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "E:\\ASP.Net-main\\Review Application\\Review Application\\obj\\",
+        "outputPath": "E:\\ASP.Net-main (1)\\ASP.Net-main\\Review Application\\Review Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -45,6 +45,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNet.Mvc": {
+              "target": "Package",
+              "version": "[5.3.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
