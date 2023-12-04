@@ -1,0 +1,19 @@
+﻿@model IEnumerable<YourNamespace.Models.Movie>
+
+<h2>Movies</h2>
+
+<table>
+    <tr>
+        <th>Title</th>
+        <th>Director</th>
+        <th>Release Date</th>
+    </tr>
+    @foreach (var movie in Model)
+    {
+        <tr>
+            <td>@Html.DisplayFor(modelItem => movie.Title)</td>
+            <td>@Html.DisplayFor(modelItem => movie.Director)</td>
+            <td>@Html.DisplayFor(modelItem => movie.ReleaseDate)</td>
+        </tr>
+    }
+</table>

@@ -1,0 +1,26 @@
+﻿@model YourNamespace.Models.Review
+
+<h2>Add Review</h2>
+
+@using (Html.BeginForm())
+{
+    <div>
+        <label>Movie</label>
+        @Html.DropDownList("MovieId", null)
+    </div>
+    <div>
+        <label>Reviewer Name</label>
+        @Html.EditorFor(model => model.ReviewerName)
+    </div>
+    <div>
+        <label>Content</label>
+        @Html.TextAreaFor(model => model.Content)
+    </div>
+    <div>
+        <label>Rating</label>
+        @Html.EditorFor(model => model.Rating)
+    </div>
+    <div>
+        <input type="submit" value="Add Review" />
+    </div>
+}
