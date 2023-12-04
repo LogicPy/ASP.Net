@@ -1,0 +1,28 @@
+C:\Users\Admin\Documents\GitHub\ASP.Net\ASP.Net\Lollms C# Client\Lollms C# Client\obj\Debug\net6.0\Lollms C# Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\GitHub\ASP.Net\ASP.Net\Lollms C# Client\Lollms C# Client\obj\Debug\net6.0\Lollms C# Client.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\GitHub\ASP.Net\ASP.Net\Lollms C# Client\Lollms C# Client\obj\Debug\net6.0\Lollms C# Client.AssemblyInfo.cs
+C:\Users\Admin\Documents\GitHub\ASP.Net\ASP.Net\Lollms C# Client\Lollms C# Client\obj\Debug\net6.0\Lollms C# Client.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\ASP.Net\ASP.Net\Lollms C# Client\Lollms C# Client\obj\Debug\net6.0\Lollms C# Client.sourcelink.json
+C:\Users\Admin\Documents\GitHub\ASP.Net\ASP.Net\Lollms C# Client\Lollms C# Client\obj\Debug\net6.0\Lollms C# Client.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\ASP.Net\ASP.Net\Lollms C# Client\Lollms C# Client\bin\Debug\net6.0\Lollms C# Client.exe
+C:\Users\Admin\Documents\GitHub\ASP.Net\ASP.Net\Lollms C# Client\Lollms C# Client\bin\Debug\net6.0\Lollms C# Client.deps.json
+C:\Users\Admin\Documents\GitHub\ASP.Net\ASP.Net\Lollms C# Client\Lollms C# Client\bin\Debug\net6.0\Lollms C# Client.runtimeconfig.json
+C:\Users\Admin\Documents\GitHub\ASP.Net\ASP.Net\Lollms C# Client\Lollms C# Client\bin\Debug\net6.0\Lollms C# Client.dll
+C:\Users\Admin\Documents\GitHub\ASP.Net\ASP.Net\Lollms C# Client\Lollms C# Client\bin\Debug\net6.0\Lollms C# Client.pdb
+C:\Users\Admin\Documents\GitHub\ASP.Net\ASP.Net\Lollms C# Client\Lollms C# Client\bin\Debug\net6.0\EngineIoClientDotNet.dll
+C:\Users\Admin\Documents\GitHub\ASP.Net\ASP.Net\Lollms C# Client\Lollms C# Client\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Admin\Documents\GitHub\ASP.Net\ASP.Net\Lollms C# Client\Lollms C# Client\bin\Debug\net6.0\SocketIO.Core.dll
+C:\Users\Admin\Documents\GitHub\ASP.Net\ASP.Net\Lollms C# Client\Lollms C# Client\bin\Debug\net6.0\SocketIO.Serializer.Core.dll
+C:\Users\Admin\Documents\GitHub\ASP.Net\ASP.Net\Lollms C# Client\Lollms C# Client\bin\Debug\net6.0\SocketIO.Serializer.SystemTextJson.dll
+C:\Users\Admin\Documents\GitHub\ASP.Net\ASP.Net\Lollms C# Client\Lollms C# Client\bin\Debug\net6.0\SocketIOClient.dll
+C:\Users\Admin\Documents\GitHub\ASP.Net\ASP.Net\Lollms C# Client\Lollms C# Client\bin\Debug\net6.0\SocketIoClientDotNet.dll
+C:\Users\Admin\Documents\GitHub\ASP.Net\ASP.Net\Lollms C# Client\Lollms C# Client\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\Admin\Documents\GitHub\ASP.Net\ASP.Net\Lollms C# Client\Lollms C# Client\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\Admin\Documents\GitHub\ASP.Net\ASP.Net\Lollms C# Client\Lollms C# Client\bin\Debug\net6.0\WebSocket4Net.dll
+C:\Users\Admin\Documents\GitHub\ASP.Net\ASP.Net\Lollms C# Client\Lollms C# Client\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\Admin\Documents\GitHub\ASP.Net\ASP.Net\Lollms C# Client\Lollms C# Client\obj\Debug\net6.0\Lollms C# Client.csproj.CopyComplete
+C:\Users\Admin\Documents\GitHub\ASP.Net\ASP.Net\Lollms C# Client\Lollms C# Client\obj\Debug\net6.0\Lollms C# Client.dll
+C:\Users\Admin\Documents\GitHub\ASP.Net\ASP.Net\Lollms C# Client\Lollms C# Client\obj\Debug\net6.0\refint\Lollms C# Client.dll
+C:\Users\Admin\Documents\GitHub\ASP.Net\ASP.Net\Lollms C# Client\Lollms C# Client\obj\Debug\net6.0\Lollms C# Client.pdb
+C:\Users\Admin\Documents\GitHub\ASP.Net\ASP.Net\Lollms C# Client\Lollms C# Client\obj\Debug\net6.0\Lollms C# Client.genruntimeconfig.cache
+C:\Users\Admin\Documents\GitHub\ASP.Net\ASP.Net\Lollms C# Client\Lollms C# Client\obj\Debug\net6.0\ref\Lollms C# Client.dll

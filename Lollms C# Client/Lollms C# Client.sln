@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lollms C# Client", "Lollms C# Client\Lollms C# Client.csproj", "{E1459F8C-12FE-4ADA-A797-579221D1A7BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E1459F8C-12FE-4ADA-A797-579221D1A7BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1459F8C-12FE-4ADA-A797-579221D1A7BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1459F8C-12FE-4ADA-A797-579221D1A7BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1459F8C-12FE-4ADA-A797-579221D1A7BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AA94BAA3-C6CB-4512-A9E5-16F3B4101FCF}
+	EndGlobalSection
+EndGlobal

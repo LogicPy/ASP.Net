@@ -1,0 +1,65 @@
+{
+  "version": 2,
+  "dgSpecHash": "U37KOJD50yv9pZFLjymPgc3B9KgsToArZ6kvrFqEippj/iKjKV4M6cDJmMLu1CyqdscwMhzxM0R8pKTHsWA4BA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Admin\\Documents\\GitHub\\ASP.Net\\ASP.Net\\Lollms C# Client\\Lollms C# Client\\Lollms C# Client.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\engineioclientdotnet\\0.9.22\\engineioclientdotnet.0.9.22.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\newtonsoft.json\\8.0.1\\newtonsoft.json.8.0.1.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\socketio.core\\3.1.1\\socketio.core.3.1.1.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\socketio.serializer.core\\3.1.1\\socketio.serializer.core.3.1.1.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\socketio.serializer.systemtextjson\\3.1.1\\socketio.serializer.systemtextjson.3.1.1.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\socketioclient\\3.1.1\\socketioclient.3.1.1.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\socketioclientdotnet\\0.9.13\\socketioclientdotnet.0.9.13.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\system.text.json\\7.0.3\\system.text.json.7.0.3.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\websocket4net\\0.14.1\\websocket4net.0.14.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'EngineIoClientDotNet 0.9.22' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "EngineIoClientDotNet",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Newtonsoft.Json 8.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'SocketIoClientDotNet 0.9.13' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "SocketIoClientDotNet",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'WebSocket4Net 0.14.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "WebSocket4Net",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

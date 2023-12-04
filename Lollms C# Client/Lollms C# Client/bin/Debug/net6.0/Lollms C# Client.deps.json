@@ -1,0 +1,265 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Lollms C# Client/1.0.0": {
+        "dependencies": {
+          "SocketIOClient": "3.1.1",
+          "SocketIoClientDotNet": "0.9.13"
+        },
+        "runtime": {
+          "Lollms C# Client.dll": {}
+        }
+      },
+      "EngineIoClientDotNet/0.9.22": {
+        "dependencies": {
+          "Newtonsoft.Json": "8.0.1",
+          "WebSocket4Net": "0.14.1"
+        },
+        "runtime": {
+          "lib/net45/EngineIoClientDotNet.dll": {
+            "assemblyVersion": "0.9.22.0",
+            "fileVersion": "0.9.22.0"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "Microsoft.NETCore.Targets/1.1.0": {},
+      "Newtonsoft.Json/8.0.1": {
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.1.19229"
+          }
+        }
+      },
+      "SocketIO.Core/3.1.1": {
+        "runtime": {
+          "lib/netstandard2.0/SocketIO.Core.dll": {
+            "assemblyVersion": "3.1.1.0",
+            "fileVersion": "3.1.1.0"
+          }
+        }
+      },
+      "SocketIO.Serializer.Core/3.1.1": {
+        "dependencies": {
+          "SocketIO.Core": "3.1.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/SocketIO.Serializer.Core.dll": {
+            "assemblyVersion": "3.1.1.0",
+            "fileVersion": "3.1.1.0"
+          }
+        }
+      },
+      "SocketIO.Serializer.SystemTextJson/3.1.1": {
+        "dependencies": {
+          "SocketIO.Core": "3.1.1",
+          "SocketIO.Serializer.Core": "3.1.1",
+          "System.Text.Json": "7.0.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/SocketIO.Serializer.SystemTextJson.dll": {
+            "assemblyVersion": "3.1.1.0",
+            "fileVersion": "3.1.1.0"
+          }
+        }
+      },
+      "SocketIOClient/3.1.1": {
+        "dependencies": {
+          "SocketIO.Serializer.Core": "3.1.1",
+          "SocketIO.Serializer.SystemTextJson": "3.1.1",
+          "System.Collections": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/SocketIOClient.dll": {
+            "assemblyVersion": "3.1.1.0",
+            "fileVersion": "3.1.1.0"
+          }
+        }
+      },
+      "SocketIoClientDotNet/0.9.13": {
+        "dependencies": {
+          "EngineIoClientDotNet": "0.9.22",
+          "Newtonsoft.Json": "8.0.1",
+          "WebSocket4Net": "0.14.1"
+        },
+        "runtime": {
+          "lib/net45/SocketIoClientDotNet.dll": {
+            "assemblyVersion": "0.9.13.0",
+            "fileVersion": "0.9.13.0"
+          }
+        }
+      },
+      "System.Collections/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Runtime/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0"
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
+      "System.Text.Encodings.Web/7.0.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/System.Text.Encodings.Web.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/browser/lib/net6.0/System.Text.Encodings.Web.dll": {
+            "rid": "browser",
+            "assetType": "runtime",
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "System.Text.Json/7.0.3": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0",
+          "System.Text.Encodings.Web": "7.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/System.Text.Json.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.723.27404"
+          }
+        }
+      },
+      "WebSocket4Net/0.14.1": {
+        "runtime": {
+          "lib/net45/WebSocket4Net.dll": {
+            "assemblyVersion": "0.14.1.0",
+            "fileVersion": "0.14.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Lollms C# Client/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EngineIoClientDotNet/0.9.22": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/dMIbPizLAzde4hr8uvHSCshKqq2zEH1lYQa83eHXRMiBGltyUKikvIdZCunDiwPL1EPxa5ngHwqd5NBQyn7eA==",
+      "path": "engineioclientdotnet/0.9.22",
+      "hashPath": "engineioclientdotnet.0.9.22.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Targets/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aOZA3BWfz9RXjpzt0sRJJMjAscAUm3Hoa4UWAfceV9UTYxgwZ1lZt5nO2myFf+/jetYQo4uTP7zS8sJY67BBxg==",
+      "path": "microsoft.netcore.targets/1.1.0",
+      "hashPath": "microsoft.netcore.targets.1.1.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/8.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qFzqzune1D7hDz8kNavFwrJ0fv8qkwANGyUOPjP0I67DmNH04nmSCRB0g0LCIqogMKrBXjsiP43Z0E1huBvxOg==",
+      "path": "newtonsoft.json/8.0.1",
+      "hashPath": "newtonsoft.json.8.0.1.nupkg.sha512"
+    },
+    "SocketIO.Core/3.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-L5GSyODDjlub5YdDxfsRtA9uxBNw1Hs/egEMhdOGFyD0c63VmvWQ1A4Gfc4GYKYInz1muP4C8QNblXErnUYDqA==",
+      "path": "socketio.core/3.1.1",
+      "hashPath": "socketio.core.3.1.1.nupkg.sha512"
+    },
+    "SocketIO.Serializer.Core/3.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aFanlt2GOGEy7GTGLyh8f8SwhtmQwoPOHTAYCQ0brjg05Nb3F38sk4hYogpII5imyZ7w0spqwNHwpl7FZ49HOA==",
+      "path": "socketio.serializer.core/3.1.1",
+      "hashPath": "socketio.serializer.core.3.1.1.nupkg.sha512"
+    },
+    "SocketIO.Serializer.SystemTextJson/3.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1PKQ+hOAJ4l3ZXlrVgiB3uNY3kLhjzYjnxk/97V6npJrNmhq09Di2EQSpGweQMu6KPbOxjZ7eYVARkGTWIUsjg==",
+      "path": "socketio.serializer.systemtextjson/3.1.1",
+      "hashPath": "socketio.serializer.systemtextjson.3.1.1.nupkg.sha512"
+    },
+    "SocketIOClient/3.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-g8Lauia1Cj5DBXeC9j6vDSJeQEboGmXsnduW06VOBMe+UgqCrenxszYXJg19rAjwO10XRWQorOuU1XNMfYo8Xg==",
+      "path": "socketioclient/3.1.1",
+      "hashPath": "socketioclient.3.1.1.nupkg.sha512"
+    },
+    "SocketIoClientDotNet/0.9.13": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0U1gOjIYNLLeEabCinglXOeY7QyVPMmvE6DRtHgwhq2H8zglPUXIpbbG74FmRVZhDA8ryATpArTeHcT/CP6xXA==",
+      "path": "socketioclientdotnet/0.9.13",
+      "hashPath": "socketioclientdotnet.0.9.13.nupkg.sha512"
+    },
+    "System.Collections/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3Dcj85/TBdVpL5Zr+gEEBUuFe2icOnLalmEh9hfck1PTYbbyWuZgh4fmm2ysCLTrqLQw6t3TgTyJ+VLp+Qb+Lw==",
+      "path": "system.collections/4.3.0",
+      "hashPath": "system.collections.4.3.0.nupkg.sha512"
+    },
+    "System.Runtime/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JufQi0vPQ0xGnAczR13AUFglDyVYt4Kqnz1AZaiKZ5+GICq0/1MH/mO/eAJHt/mHW1zjKBJd7kV26SrxddAhiw==",
+      "path": "system.runtime/4.3.0",
+      "hashPath": "system.runtime.4.3.0.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    },
+    "System.Text.Encodings.Web/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OP6umVGxc0Z0MvZQBVigj4/U31Pw72ITihDWP9WiWDm+q5aoe0GaJivsfYGq53o6dxH7DcXWiCTl7+0o2CGdmg==",
+      "path": "system.text.encodings.web/7.0.0",
+      "hashPath": "system.text.encodings.web.7.0.0.nupkg.sha512"
+    },
+    "System.Text.Json/7.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AyjhwXN1zTFeIibHimfJn6eAsZ7rTBib79JQpzg8WAuR/HKDu9JGNHTuu3nbbXQ/bgI+U4z6HtZmCHNXB1QXrQ==",
+      "path": "system.text.json/7.0.3",
+      "hashPath": "system.text.json.7.0.3.nupkg.sha512"
+    },
+    "WebSocket4Net/0.14.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-01v/KxbZ9hTY8kXPL9erpU9HPCvd++OifmU29OvgTKzBaSDfZRIFZB9mdTrRjMY/Q+7Llq0VINWPpazpYNbx4g==",
+      "path": "websocket4net/0.14.1",
+      "hashPath": "websocket4net.0.14.1.nupkg.sha512"
+    }
+  }
+}
