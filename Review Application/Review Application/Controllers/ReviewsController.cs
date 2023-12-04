@@ -1,5 +1,5 @@
 ﻿using System.Web.Mvc;
-using Review_Application.Models; // Replace with your actual namespace
+using Review_Application.Models;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.Mvc;
