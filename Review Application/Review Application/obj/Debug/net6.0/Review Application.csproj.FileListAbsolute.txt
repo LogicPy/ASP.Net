@@ -30,3 +30,15 @@ C:\Users\Admin\source\repos\Review Application\Review Application\obj\Debug\net6
 C:\Users\Admin\source\repos\Review Application\Review Application\obj\Debug\net6.0\Review Application.pdb
 C:\Users\Admin\source\repos\Review Application\Review Application\obj\Debug\net6.0\Review Application.genruntimeconfig.cache
 C:\Users\Admin\source\repos\Review Application\Review Application\obj\Debug\net6.0\ref\Review Application.dll
+E:\ASP.Net-main\Review Application\Review Application\obj\Debug\net6.0\Review Application.csproj.AssemblyReference.cache
+E:\ASP.Net-main\Review Application\Review Application\obj\Debug\net6.0\Review Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\ASP.Net-main\Review Application\Review Application\obj\Debug\net6.0\Review Application.AssemblyInfoInputs.cache
+E:\ASP.Net-main\Review Application\Review Application\obj\Debug\net6.0\Review Application.AssemblyInfo.cs
+E:\ASP.Net-main\Review Application\Review Application\obj\Debug\net6.0\Review Application.csproj.CoreCompileInputs.cache
+E:\ASP.Net-main\Review Application\Review Application\obj\Debug\net6.0\Review Application.MvcApplicationPartsAssemblyInfo.cs
+E:\ASP.Net-main\Review Application\Review Application\obj\Debug\net6.0\Review Application.MvcApplicationPartsAssemblyInfo.cache
+E:\ASP.Net-main\Review Application\Review Application\obj\Debug\net6.0\Review Application.RazorAssemblyInfo.cache
+E:\ASP.Net-main\Review Application\Review Application\obj\Debug\net6.0\Review Application.RazorAssemblyInfo.cs
+E:\ASP.Net-main\Review Application\Review Application\obj\Debug\net6.0\Review Application.dll
+E:\ASP.Net-main\Review Application\Review Application\obj\Debug\net6.0\refint\Review Application.dll
+E:\ASP.Net-main\Review Application\Review Application\obj\Debug\net6.0\Review Application.pdb

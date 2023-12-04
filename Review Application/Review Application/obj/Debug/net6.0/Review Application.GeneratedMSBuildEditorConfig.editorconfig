@@ -9,11 +9,19 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Review_Application
 build_property.RootNamespace = Review_Application
-build_property.ProjectDir = C:\Users\Admin\source\repos\Review Application\Review Application\
+build_property.ProjectDir = E:\ASP.Net-main\Review Application\Review Application\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Admin\source\repos\Review Application\Review Application
+build_property.MSBuildProjectDirectory = E:\ASP.Net-main\Review Application\Review Application
 build_property._RazorSourceGeneratorDebug = 
+
+[E:/ASP.Net-main/Review Application/Review Application/Views/Movies/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ASP.Net-main/Review Application/Review Application/Views/Movies/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
