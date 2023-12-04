@@ -1,0 +1,25 @@
+﻿@model IEnumerable<ReviewSystem.Models.Movie>
+
+<h2>Movies</h2>
+<ul>
+    @foreach (var movie in Model)
+    {
+        <li>
+            @movie.Title (@movie.ReleaseDate.Year)
+            <button onclick="showAddReviewForm(@movie.Id)">Add Review</button>
+        </li>
+    }
+</ul>
+
+<div id="reviewForm" style="display:none;">
+    <!-- Form for adding a review -->
+    <input type="hidden" id="movieId" />
+    Reviewer Name: <input type="text" id="reviewerName" /><br />
+    Content: <textarea id="content"></textarea><br />
+    Rating: <input type="number" id="rating" /><br />
+    <button onclick="addReview()">Submit Review</button>
+</div>
+
+@section Scripts {
+    <script src="~/Scripts/reviewSystem.js"></script>
+}
