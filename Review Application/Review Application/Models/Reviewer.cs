@@ -2,8 +2,12 @@
 {
     public class Reviewer
     {
-        public int Id { get; set; }
-        public string First_Name { get; set; }
-        public string Last_Name { get; set; }
-    }
+    public int UserId { get; set; }
+    public string Username { get; set; }
+    public string Email { get; set; }
+
+    // Navigation property for related reviews
+    public virtual ICollection<Review> Reviews { get; set; }
+	}
+
 }
