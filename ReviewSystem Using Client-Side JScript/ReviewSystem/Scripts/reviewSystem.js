@@ -4,7 +4,7 @@
 }
 
 function addReview() {
-    var author = document.getElementById("author").value;
+    var author = document.getElementById("reviewerName").value;
     var content = document.getElementById("content").value;
 
     // Update the DOM to display the new review
@@ -16,6 +16,6 @@ function addReview() {
     // Optionally send data to the server here using AJAX
 
     // Reset the form fields
-    document.getElementById("author").value = "";
+    document.getElementById("reviewerName").value = "";
     document.getElementById("content").value = "";
 }
