@@ -33,4 +33,6 @@ public class MoviesController : Controller
         _reviews.Add(review);
         return Json(new { success = true });
     }
+
+
 }

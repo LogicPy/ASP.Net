@@ -4,29 +4,18 @@
 }
 
 function addReview() {
-    var review = {
-        MovieId: document.getElementById("movieId").value,
-        ReviewerName: document.getElementById("reviewerName").value,
-        Content: document.getElementById("content").value,
-        Rating: document.getElementById("rating").value
-    };
+    var author = document.getElementById("author").value;
+    var content = document.getElementById("content").value;
 
-    fetch('/Movies/AddReview', {
-        method: 'POST',
-        body: JSON.stringify(review),
-        headers: {
-            'Content-Type': 'application/json'
-        }
-    })
-        .then(response => response.json())
-        .then(data => {
-            if (data.success) {
-                alert("Review added!");
-                // Reset form and hide
-                document.getElementById("reviewForm").style.display = 'none';
-                document.getElementById("reviewerName").value = '';
-                document.getElementById("content").value = '';
-                document.getElementById("rating").value = '';
-            }
-        });
+    // Update the DOM to display the new review
+    var reviewsContainer = document.getElementById("reviewsContainer");
+    var newReview = document.createElement("div");
+    newReview.innerHTML = `<strong>${author}</strong>: ${content}`;
+    reviewsContainer.appendChild(newReview);
+
+    // Optionally send data to the server here using AJAX
+
+    // Reset the form fields
+    document.getElementById("author").value = "";
+    document.getElementById("content").value = "";
 }
