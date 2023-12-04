@@ -1,0 +1,29 @@
+﻿@model YouTubeCommentsApp.Models.CommentPageViewModel
+
+<h2>Video Player</h2>
+<iframe width="560" height="315" src="https://youtu.be/FpL0Ixs4FnU?si=7Bt7FWHAOxFjjTyT" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<h3>Comments</h3>
+<!-- Display comments -->
+<!-- New comment form -->
+
+<h3>Comments</h3>
+@foreach (var comment in Model.Comments)
+{
+    <div>
+        <strong>@comment.Author</strong> (@comment.PostedOn.ToString("g")):
+        <p>@comment.Text</p>
+    </div>
+}
+
+<h4>Post a Comment</h4>
+@using (Html.BeginForm("PostComment", "Comments"))
+{
+    <label for="Author">Name:</label>
+    @Html.TextBoxFor(m => m.NewComment.Author)
+    <br />
+    <label for="Text">Comment:</label>
+    @Html.TextAreaFor(m => m.NewComment.Text)
+    <br />
+    <input type="submit" value="Post Comment" />
+}
