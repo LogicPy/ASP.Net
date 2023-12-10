@@ -1,0 +1,6 @@
+C:\Users\Admin\Documents\GitHub\ASP.Net\ASP.Net\ColorTrackingAimbot\ColorTrackingAimbot\obj\Debug\net6.0\ColorTrackingAimbot.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\ASP.Net\ASP.Net\ColorTrackingAimbot\ColorTrackingAimbot\obj\Debug\net6.0\ColorTrackingAimbot.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\GitHub\ASP.Net\ASP.Net\ColorTrackingAimbot\ColorTrackingAimbot\obj\Debug\net6.0\ColorTrackingAimbot.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\GitHub\ASP.Net\ASP.Net\ColorTrackingAimbot\ColorTrackingAimbot\obj\Debug\net6.0\ColorTrackingAimbot.AssemblyInfo.cs
+C:\Users\Admin\Documents\GitHub\ASP.Net\ASP.Net\ColorTrackingAimbot\ColorTrackingAimbot\obj\Debug\net6.0\ColorTrackingAimbot.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\ASP.Net\ASP.Net\ColorTrackingAimbot\ColorTrackingAimbot\obj\Debug\net6.0\ColorTrackingAimbot.sourcelink.json
