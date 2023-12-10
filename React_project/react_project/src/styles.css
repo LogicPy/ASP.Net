@@ -1,0 +1,143 @@
+
+
+
+body
+{
+    background-color: mediumslateblue;
+}
+
+.fixed-container {
+    position: fixed;
+    top: 100px;
+    left: 100px;
+    color: black;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 25px;
+}
+
+.listIndex {
+    position: fixed;
+    top: 190px;
+    left: 100px;
+}
+.css-1p823my-MuiListItem-root.Mui-selected
+{
+    background-color: white !important;
+}
+
+.MuiButtonBase-root, button {
+    color: black !important;
+    font-weight: bolder !important;
+}
+
+.MuiListItem-root, .listIndex {
+    color: black !important;
+    font-weight: bolder !important;
+}
+
+.responsive-block .inner-block {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: rgb(204, 204, 204);
+    border-right-color: rgb(204, 204, 204);
+    border-bottom-color: rgb(204, 204, 204);
+    border-left-color: rgb(204, 204, 204);
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    text-align: center;
+}
+
+.fb-post {
+    display: flex;
+    align-items: center;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: rgb(204, 204, 204);
+    border-right-color: rgb(204, 204, 204);
+    border-bottom-color: rgb(204, 204, 204);
+    border-left-color: rgb(204, 204, 204);
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.post-image {
+    margin-right: 15px;
+}
+
+    .post-image img {
+        width: 60px;
+        height: 60px;
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%;
+        border-bottom-right-radius: 50%;
+        border-bottom-left-radius: 50%;
+    }
+
+.post-content {
+    flex-grow: 1;
+}
+
+.post-author {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    color: rgb(54, 88, 153);
+    font-weight: bold;
+}
+
+.post-text {
+    margin-top: 5px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+@media (max-width: 576px) {
+    .fb-post {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .post-image {
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+}

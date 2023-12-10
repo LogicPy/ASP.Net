@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Chat Application from Remote Web Server.props" />
+</Project>

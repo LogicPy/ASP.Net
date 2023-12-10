@@ -1,0 +1,58 @@
+﻿
+<!-- Wayne Kenney 2023 Copyright -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chat Room</title>
+</head>
+<body>
+    <h2>Welcome to the Chat Room</h2>
+    
+    <div id="usernameWrapper">
+        <input type="text" id="usernameInput" placeholder="Enter your username"/>
+        <button onclick="joinChat()">Join Chat</button>
+    </div>
+
+    <div id="chatWrapper" style="display:none;">
+        <div id="chatWindow" style="height:300px; overflow-y:scroll;"></div>
+        <input type="text" id="messageInput" />
+        <button onclick="sendMessage()">Send</button>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/5.0.11/signalr.min.js"></script>
+
+    <script>
+        var connection = new signalR.HubConnectionBuilder().withUrl("/chatHub").build();
+        var username = '';
+
+        connection.on("ReceiveMessage", function (user, message) {
+            var msg = document.createElement("p");
+            msg.textContent = user + ": " + message;
+            document.getElementById("chatWindow").appendChild(msg);
+        });
+
+        function joinChat() {
+            username = document.getElementById("usernameInput").value;
+            if(username) {
+                document.getElementById("usernameWrapper").style.display = 'none';
+                document.getElementById("chatWrapper").style.display = 'block';
+
+                connection.start().catch(function (err) {
+                    return console.error(err.toString());
+                });
+            } else {
+                alert("Please enter a username.");
+            }
+        }
+
+        function sendMessage() {
+            var message = document.getElementById("messageInput").value;
+            connection.invoke("SendMessage", username, message).catch(function (err) {
+                return console.error(err.toString());
+            });
+            document.getElementById("messageInput").value = '';
+        }
+    </script>
+</body>
+</html>
