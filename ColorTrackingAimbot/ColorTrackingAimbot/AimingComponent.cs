@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Drawing; // For using Point or you can use System.Numerics.Vector2 for floating points
+using DrawingPoint = System.Drawing.Point; // Alias for System.Drawing.Point
 
 public class AimingComponent
 {
@@ -10,7 +11,7 @@ public class AimingComponent
     }
 
     // Method to update the aim position
-    public void UpdateAimPosition(Point newAimPosition)
+    public void UpdateAimPosition(DrawingPoint newAimPosition)
     {
         // Implementation to update the aim position
         // This could involve adjusting properties, invoking other methods, etc.
@@ -18,4 +19,3 @@ public class AimingComponent
 
     // Additional methods and properties related to aiming can be added here
 }
-

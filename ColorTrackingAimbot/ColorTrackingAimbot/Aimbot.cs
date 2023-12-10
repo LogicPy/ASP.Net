@@ -1,68 +1,89 @@
-﻿using System;
-using System.Drawing;
-using System.Runtime.InteropServices;
-using System.Windows.Forms;
+﻿using System.Windows.Forms;
+using System.Drawing.Imaging; // For PixelFormat
+using DrawingPoint = System.Drawing.Point; // Alias for System.Drawing.Point
+using DrawingRectangle = System.Drawing.Rectangle; // Alias for System.Drawing.Rectangle
+
+using System.Drawing; // For Bitmap
+using System.Runtime.InteropServices; // For DllImport
+using SixLabors.ImageSharp; // For ImageSharp functionalities
+using SixLabors.ImageSharp.PixelFormats; // For ImageSharp Pixel Formats
+using SixLabors.ImageSharp.Processing; // For ImageSharp Processing
+using ImageSharpPoint = SixLabors.ImageSharp.Point; // Alias for SixLabors.ImageSharp.Point
+using DrawingColor = System.Drawing.Color; // Alias for System.Drawing.Color
+using ImageSharpColor = SixLabors.ImageSharp.Color; // Alias for SixLabors.ImageSharp.Color
+System.Drawing.Image myImage;
+
 
 public class Aimbot
 {
-    // Constructor
-    public Aimbot()
+    public class ScreenCapture
     {
-        // Initialization code can go here
-    }
-
-    // Method to capture the screen
-    public Bitmap CaptureScreen()
-    {
-        Rectangle bounds = Screen.PrimaryScreen.Bounds;
-        Bitmap screenshot = new Bitmap(bounds.Width, bounds.Height);
-
-        using (Graphics g = Graphics.FromImage(screenshot))
+        public Bitmap CaptureScreen()
         {
-            g.CopyFromScreen(Point.Empty, Point.Empty, bounds.Size);
+            DrawingRectangle bounds = Screen.PrimaryScreen.Bounds;
+            Bitmap screenshot = new Bitmap(bounds.Width, bounds.Height, System.Drawing.Imaging.PixelFormat.Format32bppArgb);
+
+            using (Graphics g = Graphics.FromImage(screenshot))
+            {
+                g.CopyFromScreen(DrawingPoint.Empty, DrawingPoint.Empty, bounds.Size);
+            }
+
+            return screenshot;
         }
 
-        return screenshot;
-    }
+        // Method to find the color
+        private ScreenCapture screenCapture = new ScreenCapture();
 
-    // Method to find the color
-    public Point? FindColor(Color targetColor)
-    {
-        Bitmap screenShot = CaptureScreen();
-        for (int x = 0; x < screenShot.Width; x++)
+        public DrawingPoint? FindColor(DrawingColor targetColor)
         {
-            for (int y = 0; y < screenShot.Height; y++)
+            Bitmap screenShot = screenCapture.CaptureScreen();
+
+
+            for (int x = 0; x < screenShot.Width; x++)
             {
-                Color color = screenShot.GetPixel(x, y);
-                if (color == targetColor)
+                for (int y = 0; y < screenShot.Height; y++)
                 {
-                    return new Point(x, y);
+                    //Color color = screenShot.GetPixel(x, y);
+                    DrawingColor color = DrawingColor.FromArgb(255, 0, 0); // For System.Drawing.Color
+
+                    if (color == targetColor)
+                    {
+                        DrawingPoint point = new DrawingPoint(100, 100); // For System.Drawing.Point
+                        return point;
+                    }
                 }
             }
+
+            return null;
         }
 
-        return null;
-    }
+        // P/Invoke declaration for mouse movement
+        [DllImport("user32.dll")]
+        static extern bool SetCursorPos(int X, int Y);
 
-    // P/Invoke declaration for mouse movement
-    [DllImport("user32.dll")]
-    static extern bool SetCursorPos(int X, int Y);
-
-    // Method to move the mouse
-    public void MoveMouse(Point position)
-    {
-        SetCursorPos(position.X, position.Y);
-    }
-
-    // Method to execute the aimbot logic
-    public void Execute()
-    {
-        Color targetColor = Color.FromArgb(255, 0, 0); // Example: looking for red color
-        Point? colorPosition = FindColor(targetColor);
-
-        if (colorPosition.HasValue)
+        // Method to move the mouse
+        public void MoveMouse(DrawingPoint position)
         {
-            MoveMouse(colorPosition.Value);
+            SetCursorPos(position.X, position.Y);
+        }
+
+        // Method to execute the aimbot logic
+        public void Execute()
+        {
+            // Resolved
+            DrawingPoint point = new DrawingPoint(100, 100); // For System.Drawing.Point
+            DrawingColor color = DrawingColor.FromArgb(255, 0, 0); // For System.Drawing.Color
+
+
+            // Assuming FindColor is a method that returns a nullable Point (Point?) and takes a Color parameter
+            DrawingColor targetColor = DrawingColor.FromArgb(255, 0, 0); // Example target color
+            DrawingPoint? colorPosition = FindColor(targetColor);
+
+            if (colorPosition.HasValue)
+            {
+                MoveMouse(colorPosition.Value);
+            }
+
         }
     }
 }

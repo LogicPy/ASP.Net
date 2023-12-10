@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ColorTrackingAimbot")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7b39bfd1ee20b7d2cf2f5c7769c29c784c998478")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8e8df807b34408e97f5df6bda26369b6246e64d5")]
 [assembly: System.Reflection.AssemblyProductAttribute("ColorTrackingAimbot")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ColorTrackingAimbot")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
