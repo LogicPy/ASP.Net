@@ -1,0 +1,28 @@
+C:\Users\Admin\Documents\GitHub\ASP.Net\ASP.Net\Web Browser Application\obj\Debug\Web Browser Application.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\ASP.Net\ASP.Net\Web Browser Application\obj\Debug\Web_Browser_Application.Form1.resources
+C:\Users\Admin\Documents\GitHub\ASP.Net\ASP.Net\Web Browser Application\obj\Debug\Web_Browser_Application.Properties.Resources.resources
+C:\Users\Admin\Documents\GitHub\ASP.Net\ASP.Net\Web Browser Application\obj\Debug\Web Browser Application.csproj.GenerateResource.cache
+C:\Users\Admin\Documents\GitHub\ASP.Net\ASP.Net\Web Browser Application\obj\Debug\Web Browser Application.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\ASP.Net\ASP.Net\Web Browser Application\bin\Debug\Web Browser Application.exe.config
+C:\Users\Admin\Documents\GitHub\ASP.Net\ASP.Net\Web Browser Application\bin\Debug\Web Browser Application.exe
+C:\Users\Admin\Documents\GitHub\ASP.Net\ASP.Net\Web Browser Application\bin\Debug\Web Browser Application.pdb
+C:\Users\Admin\Documents\GitHub\ASP.Net\ASP.Net\Web Browser Application\obj\Debug\Web Browser Application.exe
+C:\Users\Admin\Documents\GitHub\ASP.Net\ASP.Net\Web Browser Application\obj\Debug\Web Browser Application.pdb
+C:\Users\Admin\Documents\GitHub\ASP.Net\ASP.Net\Web Browser Application\bin\Debug\EO.Base.dll
+C:\Users\Admin\Documents\GitHub\ASP.Net\ASP.Net\Web Browser Application\bin\Debug\EO.WebBrowser.dll
+C:\Users\Admin\Documents\GitHub\ASP.Net\ASP.Net\Web Browser Application\bin\Debug\EO.WebBrowser.WinForm.dll
+C:\Users\Admin\Documents\GitHub\ASP.Net\ASP.Net\Web Browser Application\bin\Debug\EO.WebEngine.dll
+C:\Users\Admin\Documents\GitHub\ASP.Net\ASP.Net\Web Browser Application\bin\Debug\EO.Base.xml
+C:\Users\Admin\Documents\GitHub\ASP.Net\ASP.Net\Web Browser Application\bin\Debug\EO.WebBrowser.xml
+C:\Users\Admin\Documents\GitHub\ASP.Net\ASP.Net\Web Browser Application\bin\Debug\EO.WebBrowser.WinForm.xml
+C:\Users\Admin\Documents\GitHub\ASP.Net\ASP.Net\Web Browser Application\bin\Debug\EO.WebEngine.xml
+C:\Users\Admin\Documents\GitHub\ASP.Net\ASP.Net\Web Browser Application\obj\Debug\Web Browser Application.csproj.CopyComplete
+C:\Users\Admin\Documents\GitHub\ASP.Net\ASP.Net\Web Browser Application\bin\Debug\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\Admin\Documents\GitHub\ASP.Net\ASP.Net\Web Browser Application\bin\Debug\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\Admin\Documents\GitHub\ASP.Net\ASP.Net\Web Browser Application\bin\Debug\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\Admin\Documents\GitHub\ASP.Net\ASP.Net\Web Browser Application\bin\Debug\Microsoft.Web.WebView2.Core.dll
+C:\Users\Admin\Documents\GitHub\ASP.Net\ASP.Net\Web Browser Application\bin\Debug\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\Admin\Documents\GitHub\ASP.Net\ASP.Net\Web Browser Application\bin\Debug\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\Admin\Documents\GitHub\ASP.Net\ASP.Net\Web Browser Application\bin\Debug\Microsoft.Web.WebView2.Core.xml
+C:\Users\Admin\Documents\GitHub\ASP.Net\ASP.Net\Web Browser Application\bin\Debug\Microsoft.Web.WebView2.WinForms.xml
+C:\Users\Admin\Documents\GitHub\ASP.Net\ASP.Net\Web Browser Application\bin\Debug\Microsoft.Web.WebView2.Wpf.xml
